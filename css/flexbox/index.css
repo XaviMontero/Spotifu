@@ -1,0 +1,35 @@
+@import url('./display.css');
+@import url('./flex-order.css');
+@import url('./flex-direction.css');
+@import url('./flex.css');
+@import url('./flexJustifyContent.css');
+:root {
+  --darckColor: #04041E;
+  --ligthColor: #DFFBFF;
+  --primaryColor: #DB086f;
+}
+
+body{
+  background-color: var(--darckColor);
+  color: var(--ligthColor);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+  color: var(--ligthColor);
+}
+
+.wrapper {
+  max-inline-size: 64rem ;
+  margin: auto;
+}
+
+.box{
+  border: 5px dashed red;
+  padding: 1rem;
+  counter-increment: flex-items;
+}
+
+.box::after {
+  content: counter(flex-items);
+}

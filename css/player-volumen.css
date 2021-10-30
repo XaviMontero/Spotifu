@@ -1,0 +1,15 @@
+.player-volumen{
+  display: flex;
+  align-items: center;
+}
+
+.player-volumen-slider{
+  flex: 1;
+  inline-size: 6rem;
+}
+
+.volumen-button{
+  border: 0;
+  padding: 0;
+
+}

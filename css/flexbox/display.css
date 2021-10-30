@@ -1,0 +1,11 @@
+.displayFlex{
+  display: flex;
+  flex-basis: content;
+  flex-wrap: wrap;
+  flex-flow: row-reverse  wrap;
+  justify-items: center;
+
+}
+.displayFlex .box + .box {
+  margin-inline-start:1rem;
+}

@@ -1,0 +1,62 @@
+:root {
+  --sidebarInlineSize: 15rem;
+  --minBlockSize: 37.5rem;
+  --minInlineSize: 48rem;
+  --bottomSize: 5.5rem;
+}
+
+.layout {
+  /* box-shadow: inset 0 0 0 10px red; */
+  min-inline-size: var(--minInlineSize);
+}
+
+.layout-main-list{
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+  inline-size: 100%;
+  background: linear-gradient(181.17deg, rgba(47, 47, 47, 0) -35.3%, #171717 66.2%), url(../assets/images/fondo.png);
+}
+
+
+.layout-main-disco{
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+  inline-size: 100%;
+}
+.layout-block {
+  display: flex;
+}
+
+.layout-sidebar {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  inline-size: var(--sidebarInlineSize);
+  overflow: auto;
+  flex-shrink: 0;
+  background: var(--gray60);
+}
+
+.layout-main {
+  block-size: calc(100vh - var(--bottomSize));
+  min-block-size: var(--minBlockSize);
+  overflow: auto;
+}
+
+.layout-bottom {
+  flex: 1;
+  block-size: var(--bottomSize);
+}
+
+
+
+.layout-disco-content {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.layout-img-content{
+  margin-inline-start: 2rem;
+}

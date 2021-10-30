@@ -1,0 +1,16 @@
+.player-playback{
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.player-back-progrest{
+  line-height: 1;
+  position: relative;
+  top: 1.9px;
+  font: var(--small);
+}
+
+.player-playback-slider{
+  flex: 1;
+}

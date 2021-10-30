@@ -1,0 +1,10 @@
+.justifyContent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+}
+
+.justifyContent > img {
+  margin-left: 2rem;
+}

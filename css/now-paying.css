@@ -1,0 +1,30 @@
+.now-paying{
+  color: aliceblue;
+  display: flex;
+  gap: .5rem;
+}
+
+.now-playing-title{
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.now-playing-name{
+  color: var(--withe);
+  font-family: var(--basefontBold);
+  display: block;
+  text-decoration: none;
+}
+
+.now-playing-artis{
+  color: var(--gray10);
+  font-family: var(--small);
+  text-decoration: none;
+}
+
+.now-paying-cover img{
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+  vertical-align: middle;
+}

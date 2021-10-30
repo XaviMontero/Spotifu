@@ -1,0 +1,45 @@
+@import url('./icons.css');
+@import url('./fonts.css');
+@import url('./body.css');
+@import url('./link.css');
+@import url('./buttonIcon.css');
+@import url('./logo.css');
+@import url('./list.css');
+@import url('./menu.css');
+@import url('./player.css');
+@import url('./page.css');
+@import url('./layout.css');
+@import url('./scroll.css');
+@import url('./range.css');
+@import url('./miusic.css');
+:root {
+  font-size: 14px;
+  --primaryColor: #00B050;
+  --withe:  #FFFFFF;
+  --gray10: #B3B3B3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+  --basefontfamily : Avenir, Arial,Helvetica;
+  --headLine1: bold 2rem/normal var(--basefontfamily);
+  --headLine2: bold 1.5rem/1.75rem var(--basefontfamily);
+  --basefont: normal 0.875rem/1.375rem var(--basefontfamily);
+  --basefontBold: bold .875rem/1.75rem var(--basefontfamily);
+  --button: bold .875rem/1rem var(--basefontfamily);
+  --small: normal .75em/normal var(--basefontfamily);
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+}
+

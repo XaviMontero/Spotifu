@@ -1,0 +1,80 @@
+.miusic-content{
+  display: flex;
+  flex-direction: column;
+  max-block-size: 400px;
+  overflow: auto;
+}
+
+.miusic-data {
+  display: flex;
+  justify-content:space-around;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+}
+.miusic-title{
+  font-size: 1rem;
+  font: var(--small);
+  color: var(--gray10);
+}
+
+.miusic-name{
+  font-size: 1rem;
+  font: var(--small);
+  color: var(--withe);
+}
+
+.miusic-item{
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+.miusic-title-central{
+  max-block-size: 300px;
+  min-block-size: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.miusic-title-central-disco{
+  max-block-size: 300px;
+  min-block-size: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.miusic-title-central p{
+margin: 0%;
+padding: 0;
+}
+
+.miusic-title-central .buttonIcon{
+  inline-size: 10rem;
+  block-size: 2rem;
+   border-radius: 4.375rem;
+}
+
+
+.miusic-title-disco{
+  max-block-size: 200px;
+  min-block-size: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.miusic-title-disco p{
+margin: 0%;
+padding: 0;
+}
+
+.miusic-title-disco .buttonIcon{
+  inline-size: 10rem;
+  block-size: 2rem;
+  margin-block-start: 1rem;
+  border-radius: 4.375rem;
+}

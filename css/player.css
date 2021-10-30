@@ -1,0 +1,32 @@
+
+@import url('./sidebar.css');
+@import url('./ellipsis.css');
+@import url('./slider.css');
+@import url('./player-controls.css');
+@import url('./player-playback.css');
+@import url('./player-volumen.css');
+@import url('./now-paying.css');
+.player{
+display: flex;
+gap: 1.5rem;
+padding: 1rem;
+box-shadow: inset 0px 1px 0 var(--gray30);
+}
+
+.player >* {
+  flex: 1;
+}
+
+.player-player-volumen{
+  display: flex;
+  justify-content: flex-end;
+}
+.player-control{
+ border: none;
+ padding: 0;
+ background: none;
+ color: var(--gray10);
+ font-size: 1rem;
+ padding: .5rem ;
+ cursor: pointer;
+}

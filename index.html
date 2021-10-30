@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <title>Spotifu</title>
+  <meta name="title" content="Spotifu" />
+  <meta name="description"
+  content="Missed any Universe sessions? All content is available on demand now so you can view on your own time." />
+  <meta name="author" content="Xavi" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Spotifu" />
+  <meta property="og:description"
+    content="Missed any Universe sessions? All content is available on demand now so you can view on your own time." />
+
+
+  <link rel="stylesheet" href="./css/app.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/logo/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/logo/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/logo/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/logo/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/logo/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/logo/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/logo/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/logo/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/logo/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/logo/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/logo/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body class="body">
+
+  <div class="layout">
+
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <div class="sidebar">
+          <header class="logo" role="banner">
+            <a href="/" aria-current="page">
+              <img src="./assets/images/spotifu-logo.png" class="logo-img" style="width: 112px; height: 32px;"
+                alt="Logo Spotifu" title="Logo Spotifu">
+            </a>
+          </header>
+          <nav class="menu" aria-label="Principal">
+            <ul class="menu-list">
+              <li class="menu-item is-active">
+                <a href="/" class="link" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Inicio</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="./lista.html" class="link" aria-current="page">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              </li>
+
+              <li class="menu-item">
+                <a href="./disco.html" class="link" aria-current="page">
+                  <i class="icon-credit-card" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="library-navigation">
+            <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
+            <ul class="list-conten">
+              <li class="list-item">
+                <a href="#" class="link">Creada para ti</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Escuchado recientemente</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Tus Me Gusta</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlists</h2>
+            <ul class="list-conten">
+              <li class="list-item">
+                <a href="#" class="link">Creada para ti</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Lo mejor de los mejor</a>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Naruto al 100% para programar al full en la  </a>
+                </span>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Para cantar en la ducha</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Sin parar</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Naruto openings</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Boku no pico</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">This is Pokémon</a>
+              </li>
+              <li class="list-item">
+                <span class="ellipsis">
+                  <a href="#" class="link">Más populares de la semana</a>
+                </span>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Mis pistas de shazam</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Audio Library</a>
+              </li>
+
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <div class="layout-main">
+        <main class="page">
+           <div class="sticky">
+              <div class="page-block">
+                <header class="header" role="banner" aria-label="Barra superior menu del usuario">
+                  <div class="navigation">
+                    <button class="navigation-pre" areia-label="Volver" title="Volver">
+                      <i class="icon-arrow-left" aria-hidden="true"></i>
+                    </button>
+
+                    <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                      <i class="icon-arrow-right" aria-hidden="true"></i>
+                    </button>
+                  </div>
+
+                  <form action="" class="search" role="search" aria-label="Buscar por Artistas, Canciones o podcats">
+                    <div class="search-component">
+                      <i class="icon-search" aria-hidden="true"></i>
+                      <input type="search" placeholder="Buscar por Artistas, Canciones o Podcats">
+                    </div>
+
+                  </form>
+                </header>
+              </div>
+            </div>
+
+
+          <div class="page-block">
+            <section class="playlistList" aria-labelledby="region1">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region1">Buenas noches</h2>
+
+                <div class="navigation">
+                  <button class="navigation-pre" areia-label="Volver" title="Volver">
+                    <i class="icon-arrow-left" aria-hidden="true"></i>
+                  </button>
+
+                  <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="playlistList-container">
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/1.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/2.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/3.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/4.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/anime.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/5.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/anime.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/anime.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/anime.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class="playlistB">
+                  <div class="playlistB-cover">
+                    <img src="./assets/images/anime.png" width="76" height="76" alt="Cover de la Playlists">
+                  </div>
+                  <div class="playlistB-details">
+                    <h3 class="playlistB-details-title">Naruto Openins & endings</h3>
+                    <div class="playlistB-control">
+                      <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                        <i class="icon-Play" aria-hidden="true"></i>
+                      </button>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="playlistList" aria-labelledby="region10">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region10">Escuchado recientemente</h2>
+                <div class="navigation">
+                  <button class="navigation-pre" areia-label="Volver" title="Volver">
+                    <i class="icon-arrow-left" aria-hidden="true"></i>
+                  </button>
+
+                  <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="playlistList-container">
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/a.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/b.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/c.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/d.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+              </div>
+
+            </section>
+
+
+            <section class="playlistList" aria-labelledby="region3">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region3">Escuchado recientemente</h2>
+                <div class="navigation">
+                  <button class="navigation-pre" areia-label="Volver" title="Volver">
+                    <i class="icon-arrow-left" aria-hidden="true"></i>
+                  </button>
+
+                  <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="playlistList-container">
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/d.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/g.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/h.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/a.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/e.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+              </div>
+
+            </section>
+
+
+            <section class="playlistList" aria-labelledby="region4">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region4">Escuchado recientemente</h2>
+                <div class="navigation">
+                  <button class="navigation-pre" areia-label="Volver" title="Volver">
+                    <i class="icon-arrow-left" aria-hidden="true"></i>
+                  </button>
+
+                  <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="playlistList-container">
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/e.PNG" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/a.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/d.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/c.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/a.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/d.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/g.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/b.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+              </div>
+
+            </section>
+
+            <section class="playlistList" aria-labelledby="region5">
+              <div class="playlistList-top">
+                <h2 class="playlistList-title" id="region5">Escuchado recientemente</h2>
+                <div class="navigation">
+                  <button class="navigation-pre" areia-label="Volver" title="Volver">
+                    <i class="icon-arrow-left" aria-hidden="true"></i>
+                  </button>
+
+                  <button disabled class="navigation-next" areia-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrow-right" aria-hidden="true"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="playlistList-container">
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/b.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/d.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/a.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/g.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/f.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+                <div class="playlistA">
+                  <div class="playlistA-img">
+                    <img src="./assets/images/anime.png" width="150px" height="150px" alt="Cover de la Playlists">
+                    <button class="buttonIcon is-prymary" areia-label="Reproducir" title="Reproducir">
+                      <i class="icon-Play" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <h3 class="playlist-title">Anime Hits</h3>
+                  <h4 class="playlist-description">Naruto, Your Name, Weathing</h4>
+                </div>
+              </div>
+
+            </section>
+          </div>
+
+        </main>
+      </div>
+
+    </div>
+
+<div class="layout-block">
+  <footer class="layout-bottom">
+    <div class="player">
+      <div class="player-now-paying">
+        <div class="now-paying">
+          <div class="now-paying-cover">
+            <img src="./assets/images/car.PNG" alt="Portada Grand Escape" title="Portada Grand Escape">
+          </div>
+
+          <div class="now-playing-title">
+            <div class="now-playing-description">
+              <a href="#song" class="now-playing-name">Mi Berinche</a>
+              <a href="#artista" class="now-playing-artis">Sous-sol</a>
+            </div>
+            <div class="now-playing-button">
+              <button class="player-control " role="switch" aria-checked="false" title="Guardar en tu biblioteca"
+                aria-describedby="heart-icon" aria-label="Guardar en tu biblioteca">
+                <i id="heart-icon" class="icon-heart" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="player-player-controls">
+        <div class="player-controls">
+          <div class="player-control-buttons" role="region" aria-label="Controles de reproducción">
+            <button class="buttonIcon" areia-label="Anterior" title="Anterior">
+              <i class="icon-prev" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon is-white" id="playMiusic" areia-label="Reproducir" title="Reproducir">
+              <i class="icon-Play" aria-hidden="true"></i>
+            </button>
+
+            <button class="buttonIcon is-white" hidden id="pause" areia-label="Pausar" title="Pausar">
+              <i class="icon-pause" aria-hidden="true"></i>
+            </button>
+            <button class="buttonIcon" areia-label="Siguiente" title="Siguiente">
+              <i class="icon-next" aria-hidden="true"></i>
+            </button>
+          </div>
+          <div class="player-playback">
+
+            <samp class="player-back-progrest">01:40</samp>
+            <div class="player-playback-slider">
+
+                <audio src="./assets/music/can.mp3" id="music"></audio>
+                <div class="rangeContainer">
+                  <input type="range" min="1" max="100" value="1" id="myRange" class="range">
+                </div>
+
+            </div>
+            <samp class="player-back-progrest">03:40</samp>
+          </div>
+
+        </div>
+      </div>
+      <div class="player-player-volumen">
+        <div class="player-volumen">
+          <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+            <i class="icon-volume-up" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+          </button>
+          <div class="player-volumen-slider">
+            <div class="slider">
+              <div class="slider-progres">
+                <button class='slider-button' aria-label="Controlar progreso del Volumen"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</div>
+
+  </div>
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+
+</html>
