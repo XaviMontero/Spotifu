@@ -45,7 +45,8 @@ function handleLoaded (){
 
 function handleUpdate(){
   $range.value = $music.currentTime;
-  var porcentaje = ($music.currentTime * 100) / $music.duration;
+  var porcentaje = ($music.currentTime * 100)/$music.duration;
+  var x = $range.value;
   var color = 'linear-gradient(90deg, rgb(255,255,255)'+ porcentaje  +'%, rgba(255, 255, 255, .2)'+ porcentaje +'%)'
   var color1 = 'linear-gradient(90deg, rgb(117,252,117)'+ porcentaje +'%, rgba(255, 255, 255, .2)'+porcentaje+'%)'
   $range.style.background = estado?color1:color;
