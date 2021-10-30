@@ -20,12 +20,13 @@ $range.addEventListener('mouseenter', mouseMove);
 $range.addEventListener('mouseover', mouseMove);
 
 $range.addEventListener('input', handleInput);
-$range.max =  $music.duration;
-console.log($range.max);
+
 function handlePlay(){
     $music.play();
     $play.hidden = true;
     $pausa.hidden = false;
+    $range.max =  $music.duration;
+    console.log($range.max);
 
 }
 
